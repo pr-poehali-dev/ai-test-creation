@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="w-full border-t bg-background py-6 md:py-10">
       <div className="container grid gap-8 md:grid-cols-3">
         <div className="space-y-4">
-          <h3 className="text-lg font-medium">ТестМастер</h3>
+          <h3 className="text-lg font-medium">TastyAI</h3>
           <p className="text-sm text-muted-foreground">
             Современная платформа для создания и прохождения тестов с применением искусственного интеллекта
           </p>
@@ -77,7 +77,7 @@ export function Footer() {
       <div className="container mt-8 border-t pt-6">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            &copy; {currentYear} ТестМастер. Все права защищены.
+            &copy; {currentYear} TastyAI. Все права защищены.
           </p>
           <div className="flex gap-4 text-sm text-muted-foreground">
             <Link to="/terms" className="hover:text-foreground transition-colors">
